@@ -1,0 +1,79 @@
+<div class="container">
+
+  <div id="modal" class="popupContainer" style="display:none;">
+    <header class="popupHeader">
+      <span class="header_title">Login</span>
+      <span class="modal_close"><i class="fa fa-times"></i></span>
+    </header>
+
+    <section class="popupBody">
+      <!-- Username & Password Login form -->
+      <div class="user_login">
+        <form>
+          <label>Email / Username</label>
+          <input type="text" />
+          <br />
+
+          <label>Password</label>
+          <input type="password" />
+          <br />
+
+          <div class="checkbox">
+            <input id="remember" type="checkbox" />
+            <label for="remember">Remember me on this computer</label>
+          </div>
+
+          <div class="action_btns">
+            <div class="one_half"><a href="#" id="login_form" class="btn">Login</a></div>
+            <div class="one_half last"><a href="#" class="forgot_password">Forgot password?</a></div>
+          </div>
+
+
+          <div class="action_btns">
+            <p>Don't have an account yet?</p>
+            <div class="one_half last"><a href="#" id="register_form" class="btn">Sign up</a></div>
+          </div>
+        </form>
+
+      </div>
+
+      <!-- Register Form -->
+      <div class="user_register">
+        <form method="get" action="http://localhost/~tianwenlan/cgi-bin/userinfo.py">
+          <label>First Name</label>
+          <input type="text" name="fname"/>
+          <br />
+
+          <label>Last Name</label>
+          <input type="text" name="lname"/>
+          <br />
+
+          <label>User Name</label>
+          <input type="text" name="uname"/>
+          <br />
+
+          <label>Email Address</label>
+          <input type="email" name="email"/>
+          <br />
+
+          <label>Password</label>
+          <input type="password" name="pwd"/>
+          <br/>
+
+
+          <div class="checkbox">
+            <input id="send_updates" type="checkbox" />
+            <label for="send_updates">Send me promotional email updates.</label>
+          </div>
+
+          <input type="submit" value="Register" class="btn">
+
+          <div class="back_btns">
+            <p>Already have an account?</p>
+            <div class="one_half"><a href="#" id="back_btns" class="btn">Login</a></div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </div>
+</div>

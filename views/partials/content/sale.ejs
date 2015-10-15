@@ -1,0 +1,20 @@
+<div class="container">
+  <h1>On Sale</h1>
+
+  <div class="row">
+    <% appdata.sales.forEach(function(item){ %>
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <a href="/<%=item.productID%>"><img src="/images/<%=item.image%>"></a>
+        <div class="caption">
+          <a href="/<%=item.productID%>"><h3><%=item.product%></h3></a>
+          <p><%=item.size%></p>
+          <p>$<%=item.cost%></p>
+          <p><a href="#" class="btn btn-default" role="button">Add</a></p>
+        </div>
+      </div>
+    </div>
+    <%})%>
+
+  </div>
+</div>

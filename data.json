@@ -1,0 +1,106 @@
+{
+  "populars": [
+    {
+      "product": "Estee Lauder Nutritious Toner",
+      "size": "30 oz",
+      "productID": "estee_01",
+      "cost": 55,
+      "description": "This high-performance, energizing treatment lotion with anti-oxidants deeply hydrates skin. Rich, cushioning lotion infuses skin with comforting moisture and energy for a look of radiant vitality. From the Nutritious Collection, powered by pomegranate. See a new look of active, radiant health.",
+      "category": "Beauty",
+      "brand ": "Estee Lauder",
+      "image": "estee01.jpeg",
+      "quantity": 20
+    },
+    {
+      "product": "Estee Lauder ANR Serum",
+      "size": "1.7 oz",
+      "productID": "estee_02",
+      "cost": 92,
+      "description": "Reveal a smoother, more radiant, younger look. Wake up to more beautiful skin every day. Tested and proven: Advanced Night Repair dramatically reduces the look of all key signs of aging. It maximizes the power of skin's natural nighttime renewal with their exclusive ChronoluxCB Technology. Lines and wrinkles look significantly reduced.",
+      "category": "Beauty",
+      "brand ": "Estee Lauder",
+      "image": "estee02.jpeg",
+      "quantity": 30
+    },
+    {
+      "product": "Estee Lauder ANR eye Serum",
+      "size": "1 oz",
+      "productID": "estee_03",
+      "cost": 58,
+      "description": "Re-ignite the youthful light of your eyes. This breakthrough eye treatment maximizes the power of night to re-ignite the vital, youthful light that can fade due to fatigue, pollution and age. Now, advanced with our exclusive ChronoluxCB Technology, it helps significantly inhibit the appearance of visible damage: fine lines, crow's feet, dark circles, puffiness, dryness and uneven texture. Rich, silky, gel creme leaves the entire eye area looking more youthful, vibrant and brighter.",
+      "category": "Beauty",
+      "brand ": "Estee Lauder",
+      "image": "estee03.jpeg",
+      "quantity": 20
+    },
+    {
+      "product": "Lancome Tonique Confort",
+      "size": "30 oz",
+      "productID": "lancome_01",
+      "cost": 44,
+      "description": "A silky-soft moisturizing toner that gently purifies and immediately rehydrates complexion. The instantly soothing formula made with Honey and Sweet Almond Extract gives skin a soft, fresh, clean and incredibly comfortable feeling.",
+      "category": "Beauty",
+      "brand ": "Lancome",
+      "image": "lancome01.jpeg",
+      "quantity": 20
+    },
+    {
+      "product": "Lancome Renergie Nigth Cream",
+      "size": "1.7 oz",
+      "productID": "lancome_02",
+      "cost": 85,
+      "description": "Lift, Firm, Tighten. The new multi-action lifting & firming effect. All facial zones are visibly tightened. Rénergie Lift Multi-Action Night Lifting and Firming Night Cream: Lancôme creates its first lifting skincare enriched with Multi-Tension technology. For a complete rejuvenating routine, discover their perfect partners for super-lifted skin. Experience a flawless complexion and a 12-hour lifting effect with Rénergie Lift Make-up. Together with Rénergie Lift Multi-Action day and eye creams, it is the ultimate lifting effect for younger-looking skin.",
+      "category": "Beauty",
+      "brand ": "Lancome",
+      "image": "lancome02.jpeg",
+      "quantity": 20
+    },
+    {
+      "product": "Lancome Genifique Concentrate",
+      "size": "1 oz",
+      "productID": "lancome_03",
+      "cost": 55,
+      "description": "This innovative serum soaks into skin, targeting the 10 key signs of youth: texture, resiliency, elasticity, firmness, sagginess, fine lines, wrinkles, radiance, even skin tone, and clarity, with noticeable results in just 7 days. Advanced Génifique is the perfect first step after cleansing to reveal smoother, more radiant skin for all ages, ethnicities, and skin types. An exclusive self-loading dropper delivers the ideal dosage for each application.",
+      "category": "Beauty",
+      "brand ": "Lancome",
+      "image": "lancome03.jpeg",
+      "quantity": 20
+    }
+  ],
+  
+  "sales": [
+    {
+      "product": "Clarins Toning Lotion With Camomile",
+      "size": "30 oz",
+      "productID": "clarins_01",
+      "cost": 24,
+      "description": "Alcohol-free toner — with purifying Camomile and Linden extracts — removes every last trace of cleanser, leaving normal-to-dry skin types pH-balanced, pristine-clean and perfectly refreshed. Softens and soothes irritations. Preps skin for the Clarins treatments to follow.",
+      "category": "Beauty",
+      "brand ": "Clarins",
+      "image": "clarins01.jpeg",
+      "quantity": 20
+    },
+    {
+      "product": "Estee Lauder ANR Serum",
+      "size": "1.7 oz",
+      "productID": "estee_02",
+      "cost": 92,
+      "description": "Reveal a smoother, more radiant, younger look. Wake up to more beautiful skin every day. Tested and proven: Advanced Night Repair dramatically reduces the look of all key signs of aging. It maximizes the power of skin's natural nighttime renewal with their exclusive ChronoluxCB Technology. Lines and wrinkles look significantly reduced.",
+      "category": "Beauty",
+      "brand ": "Estee Lauder",
+      "image": "estee02.jpeg",
+      "quantity": 30
+    },
+    {
+      "product": "Clarins Toning Lotion With Iris",
+      "size": "30 oz",
+      "productID": "clarins_02",
+      "cost": 24,
+      "description": "Alcohol-free toner — with purifying Iris and Sage extracts — removes every last trace of cleanser, leaving combination and oily skin types pristine-clean and perfectly radiant. Skin-balancing formula tones and tightens pores, while helping to normalize surface oils. Preps skin for the Clarins treatments to follow.",
+      "category": "Beauty",
+      "brand ": "Clarins",
+      "image": "clarins02.jpeg",
+      "quantity": 20
+    }
+  ]
+}

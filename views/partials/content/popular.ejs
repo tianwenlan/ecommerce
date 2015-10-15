@@ -1,0 +1,20 @@
+<div class="container">
+  <h1>Best of Eater's home</h1>
+
+  <div class="row">
+    <% appdata.populars.forEach(function(item){ %>
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <a href="/<%=item.productID%>"><img src="/images/<%=item.image%>"></a>
+        <div class="caption">
+          <a href="/<%=item.productID%>"><h3><%=item.product%></h3></a>
+          <p><%=item.size%></p>
+          <p>$<%=item.cost%></p>
+          <p><a href="#" class="btn btn-default" role="button">Add</a></p>
+        </div>
+      </div>
+    </div>
+    <%})%>
+
+  </div>
+</div>
